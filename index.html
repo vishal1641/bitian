@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Bitians Kart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+  .navbar-brand {
+    color: red;
+
+  }
+
+  .bit {
+    display: flex;
+  }
+
+  .head {
+    height: 100px;
+    background-color: cornsilk;
+
+    text-align: center;
+    font-family: 'Abyssinica SIL', serif;
+
+  }
+
+  .c {
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+  }
+
+  .s {
+    font-size: 15px;
+    color: red;
+
+    font-weight: bold;
+  }
+
+  .sp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .k {
+    height: 90px;
+    background-color: rgb(135, 235, 217);
+    color: rgb(52, 3, 3);
+    font-size: 45px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+  }
+
+  .sur {
+    height: 80px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    background-color: skyblue;
+  }
+
+  .pop {
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+    height: 200px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* border-radius: 50px; */
+    font-weight: bold;
+    /* display: flex; */
+    /* width: 100%; */
+    /* width: 600px; */
+
+  }
+
+  .vis {
+    /* height: 60%; */
+    /* width: 100%; */
+    /* height: 100px; */
+    /* background-color: orange; */
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .d {
+    /* box-sizing: border-box; */
+    width: 513px;
+  }
+
+  .ti {
+    /* background-color: bisque; */
+    color: black;
+    height: 40px;
+    font-family: 'Abril Fatface', cursive;
+  }
+  .ch{
+    position: absolute;
+    right:600px;
+    /* top: 5px; */
+  }
+  .ku{
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">>THE BITIANS
+        KART</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">My Profile</a>
+
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#"> My Orders</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Cart</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Rewards</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Refer & Earn</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Sell Products</a></li>
+      </ul>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Top Selling Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Mattress</a>
+
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Pillow</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Drafter</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Calculator</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">More Products</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="float-lg-end">
+          <button type="button" class="btn btn-outline-primary">Login</button>
+          <button type="button" class="btn btn-outline-secondary">Sign Up</button>
+        </div><br>
+      </div>
+    </div>
+  </nav>
+  <div class="head">
+    <span class="c">
+
+      Your wish Our Commmand.
+    </span>
+    <br class="s">
+    GET EVERYTHING THAT A BITIAN DESIRES.
+    <br>Our dream is to provide you the best product at the lowest price.</br>
+    </br>
+
+  </div>
+  <div class="bit">
+    <img src="1.jpg" alt="" class="t">
+
+    <img src="2.jpg" alt="" class="d">
+  </div>
+  <div class="k">
+    <marquee behavior="alternate" direction="right">
+
+      Blockbuster Deals !!
+    </marquee>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BEDSHEET AND PILLOW COVER</h5>
+          <p class="card-text"> VISHAL KUMAR TIWARI</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">STUDY TABLE</h5>
+          <p class="card-text">SAURABH KUMAR SINGH </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">DRAFTER</h5>
+          <p class="card-text"> AVINASH KUMAR PRIYADARSHI</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CALCULATOR</h5>
+          <p class="card-text">ASHISH MISHRA</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">MATTRESS</h5>
+          <p class="card-text">KUNAL KUMAR SINGH</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="9.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BUCKET AND MUG</h5>
+          <p class="card-text">RITURAJ DUBEY</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="12.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">POSTER</h5>
+          <p class="card-text">AMARJEET ANAND</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="11.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">WATER BOTTLE</h5>
+          <p class="card-text">AADITYA VISHWAKARMA</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PILLOW</h5>
+          <p class="card-text">ANKIT KUMAR VISHWAKARMA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sur">
+    <div class="ch">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+
+
+  </div>
+  </div>
+  <div class="pop">
+    <div class="vis">
+      <div class="card text-center text-bg-dark mb-3">
+        <div class="card-header">
+          A Startup By Bitians.
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">YOUR WISH OUR COMMMAND.</h5>
+          <p class="card-text">AB SACH ME KOI MG NAHI JAYEGA KYKUI MG AB HOSTEL AAYEGA.</p>
+          <p class="mg">
+            <a href="$"><i class="fa fa-facebook-official" style="font-size:48px;color:red"></i></a>&nbsp;
+            <a href="$"><i class="fa fa-instagram" style="font-size:48px;color:red"></i></a>&nbsp;
+            <a href="$"><i class="fa fa-twitter" style="font-size:48px;color:red"></i></a>&nbsp;
+            <a href="#"><i class="fa fa-linkedin-square" style="font-size:48px;color:red"></i></a>
+          </p>
+          <a href="#" class="btn btn-primary">
+            <i class="material-icons" style="font-size:25px;color:rgb(14, 9, 9)">chat</i>Chat With Us</a>
+        </div>
+        <!-- <div class="card-footer text-muted"> -->
+        <!-- 2 days ago -->
+        <!-- </div> -->
+      </div>
+    </div>
+    <p class="ku">Contact Us At:955555555</p>
+    <div class="ti">
+      <div class="float-start">Designed By VISHAL KUMAR TIWARI.
+        <br>ELECTRICAL ENGINEERING depatrment(BATCH:2K21).
+      </div><br>
+      <div class="float-end">FOLLOW ME:
+        <a href="$"><i class="fa fa-facebook-official" style="font-size:20px;color:black"></i></a>&nbsp;
+            <a href="$"><i class="fa fa-instagram" style="font-size:20px;color:black"></i></a>&nbsp;
+            <a href="$"><i class="fa fa-twitter" style="font-size:20px;color:black"></i></a>&nbsp;
+            <a href="#"><i class="fa fa-linkedin-square" style="font-size:20px;color:black"></i></a>&nbsp;
+      </div><br>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
